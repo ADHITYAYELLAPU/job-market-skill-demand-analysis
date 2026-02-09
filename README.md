@@ -62,15 +62,15 @@ Total: 60 job descriptions
 
 Data Schema
 
-Column	Description
+Column -	Description
 
-role	Job role category
+role -	Job role category
 
-company	Hiring organization
+company	- Hiring organization
 
-location	Job location
+location -	Job location
 
-jd_text	Full job description text
+jd_text	- Full job description text
 
 🛠️ Skill Extraction Methodology
 
