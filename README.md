@@ -6,7 +6,9 @@ A real-world Job Market Skill Demand Analysis using live job descriptions from N
 in-demand skills, role-wise expectations, and skill gaps across:
 
 Business Analyst
+
 Data Analyst
+
 IT Recruiter / Talent Acquisition
 
 This project focuses on what the job market actually demands, helping candidates, recruiters, and HR teams make data-driven decisions.
@@ -16,8 +18,11 @@ This project focuses on what the job market actually demands, helping candidates
 Many candidates upskill without understanding current market demand, leading to:
 
 Skill mismatch
+
 Poor interview conversion
+
 Inefficient hiring
+
 Recruiters also struggle to quickly identify skill patterns across roles.
 
 This project answers:
