@@ -2,8 +2,7 @@
 
 🔍 Project Overview
 
-A real-world Job Market Skill Demand Analysis using live job descriptions from Naukri to identify
-in-demand skills, role-wise expectations, and skill gaps across:
+A real-world job market analytics project that analyzes live job descriptions from Naukri to identify in-emand skills, role-wise expectations, and skill patterns across:
 
 Business Analyst
 
@@ -11,47 +10,45 @@ Data Analyst
 
 IT Recruiter / Talent Acquisition
 
-This project focuses on what the job market actually demands, helping candidates, recruiters, and HR teams make data-driven decisions.
+The project focuses on market reality, not assumptions — helping candidates, recruiters, and HR teams understand what skills are actually being asked for in today’s job market.
 
 🎯 Business Problem
 
-Many candidates upskill without understanding current market demand, leading to:
+Candidates often upskill without visibility into real job market demand, resulting in:
 
 Skill mismatch
 
-Poor interview conversion
+Lower interview shortlisting
 
-Inefficient hiring
+Inefficient hiring decisions
 
-Recruiters also struggle to quickly identify skill patterns across roles.
+At the same time, recruiters and HR teams need clearer visibility into:
 
-This project answers:
+Skill overlap across roles
 
-What skills are most demanded for each role?
+Role-specific expectations
 
-Which skills overlap across roles?
+Market-driven skill priorities
 
-Which skills are role-specific?
-
-Where should entry-level candidates focus?
+This project addresses that gap using real job description data.
 
 🧠 Objectives
 
 Analyze real job descriptions from a leading job portal
 
-Extract skill requirements using a rule-based approach
+Convert unstructured JD text into structured skill data
 
-Compare skill demand across roles
+Identify common vs role-specific skills
 
-Identify common vs unique skills
+Compare skill demand across analyst and recruiter roles
 
-Highlight market-aligned skill priorities
+Generate decision-oriented insights, not just counts
 
 📂 Data Collection
 
 Source: Naukri.com
 
-Method: Semi-manual collection (ethical & realistic)
+Method: Semi-manual collection (ethical, transparent, and realistic)
 
 Dataset Size:
 
@@ -64,14 +61,22 @@ IT Recruiter – 20 JDs
 Total: 60 job descriptions
 
 Data Schema
+
 Column	Description
+
 role	Job role category
+
 company	Hiring organization
+
 location	Job location
+
 jd_text	Full job description text
+
 🛠️ Skill Extraction Methodology
 
-Skill extraction was performed using an Excel-based, rule-driven approach, similar to workflows used in HR analytics and business analysis teams.
+Skill extraction was performed using an Excel-based, rule-driven approach, similar to how HR analysts and business analysts work when automation is limited.
+
+This approach mirrors the foundational parsing logic used in ATS systems, without claiming to be an ATS product.
 
 Skill Categories
 
@@ -87,35 +92,31 @@ Technique Used
 
 Keyword matching using Excel formulas (SEARCH, ISNUMBER)
 
-Binary indicators (1 = skill present, 0 = not present)
+Binary skill indicators (1 = skill present, 0 = not present)
 
-Pivot tables for aggregation and comparison
+Pivot tables for role-wise aggregation and comparison
 
-📈 Analysis & Insights
+📈 Analysis & Key Insights
 
-The analysis highlights:
+The analysis reveals clear market patterns:
 
-Top in-demand skills per role
+Excel is a baseline skill across all three roles
 
-Skill overlap between analyst and recruiter roles
+Data Analyst roles strongly emphasize SQL and analytical skills
 
-Role-specific expectations
+Business Analyst roles balance reporting skills and stakeholder communication
 
-Clear indicators of where candidates should focus upskilling
+IT Recruiter roles prioritize communication and sourcing over technical tools
 
-This supports:
+Technical skills are role-specific, while soft skills show strong cross-role demand
 
-Resume optimization
-
-Career planning
-
-Recruiter sourcing strategies
-
-Skill gap analysis
+These insights reflect real hiring expectations, not theoretical skill lists.
 
 📌 Key Outcomes
 
 Analyzed 60 real job descriptions from a live job portal
+
+Transformed unstructured JD text into structured skill data
 
 Identified high-demand skill clusters per role
 
@@ -130,7 +131,7 @@ Business Analysis, Data Analysis, Resume Screening, Skill Gap Analysis,
 Excel, Pivot Tables, Data Cleaning, Text Analysis, Requirement Analysis,
 Stakeholder Management, Communication Skills
 
-(Optimized for recruiter & GitHub search visibility)
+(Optimized for recruiter scanning and GitHub search visibility)
 
 👥 Who This Analysis Helps
 
@@ -138,17 +139,17 @@ Job Seekers – Focus learning on market-relevant skills
 
 Recruiters – Understand role-specific hiring expectations
 
-HR Teams – Identify talent supply vs demand gaps
+HR & Talent Teams – Identify skill demand trends and gaps
 
 🧩 Tools Used
 
 Microsoft Excel
 
+Excel formulas (SEARCH, ISNUMBER)
+
 Pivot Tables
 
-Rule-based text analysis
-
-(No automated scraping or APIs used)
+(No automated scraping, APIs, or resume parsing used)
 
 📁 Repository Structure
 
@@ -162,6 +163,8 @@ Uses live job market data
 
 Solves a practical hiring and career problem
 
+Follows industry-realistic workflows
+
 Focuses on decision-making insights
 
-Mirrors workflows used in HR & business analytics teams
+ATS-inspired logic without overclaiming
